@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>쌉니다! 천리마마트 </title>
+		<link rel='master' href='/public/css/master.css'/>
+	</head>
+	<body>
+		<div>로그인 하세요!</div>
+		<form action="/login_result" method="post">
+			<input type="text" name="userEmail" placeholder="id">
+			<input type="text" name="userPwd" placeholder="pwd">
+			<input type="submit" value="Submit">
+		</form>
+	</body>
+</html>
